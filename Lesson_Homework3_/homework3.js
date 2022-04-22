@@ -24,13 +24,13 @@
 
 //________________________________________________________________________________________________
 //task 5
-let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
-for (let  i = 0; i<=listOfItems.length;i++){
-    console.log(listOfItems.length);
-    document.write(`<ul>`)
-    document.write(`<li>${listOfItems[i]}</li>`)
-    document.write(`</ul>`)
-}
+// let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+// document.write(`<ul>`)
+// for (let  i = 0; i<=listOfItems.length;i++){
+//     console.log(listOfItems.length);
+//     document.write(`<li>${listOfItems[i]}</li>`)
+//     document.write(`</ul>`)
+// }
 //________________________________________________________________________________________________
 
 //task 5 (plus indexes of items)
