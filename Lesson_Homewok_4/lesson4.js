@@ -13,12 +13,12 @@
 // }
 // test2(2,2)
 // console.log(test2(2,2));
-
-function test3 (a,s){
-    return a + s;
-}
-let useSolution = test3(1,1);
-console.log(useSolution +'hello')
+//
+// function test3 (a,s){
+//     return a + s;
+// }
+// let useSolution = test3(1,1);
+// console.log(useSolution +'hello')
 
 //питання на лекцію: щоб функція щось залишила нам, потрібно створити змінну?
 //чи є обмеження для створення назв аргументів функцій?
