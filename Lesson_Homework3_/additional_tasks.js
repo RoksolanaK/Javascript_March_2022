@@ -169,9 +169,4 @@
 //     console.log(i);
 //     document.write(`<h3>step # ${i}</h3>`)
 // }
-//nothing
-let i = 0;
-while (i<20){
-    console.log(i);
-    i++;
-}
+
