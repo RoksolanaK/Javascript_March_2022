@@ -22,10 +22,17 @@
 // document.write(`<h3>Площа циліндра - ${cylinder(2,5)}</h3>`)
 //_____________________________________________________________________________________________________
 //створити функцію яка приймає масив та виводить кожен його елемент
+// First solution
 // let massif1 = [25,35,45,55,'hey','how are you?'];
 // function noName(){
 // }
-// let Var = noName(console.log(massif1));
+// let result = noName(console.log(massif1));
+
+//Second solution
+// function noName2(){
+// }
+// noName2(console.log([25,35,45,55,'hey','how are you?']))
+// WHICH ONE IS CORRECT????????????
 //______________________________________________________________________________________________________
 // створити функцію яка створює параграф з текстом. Текст задати через аргумент
 // function text(){
@@ -34,14 +41,61 @@
 // text('hello, this is a paragraph with some uninteresting text')
 //__________________________________________________________________________________________________
 //створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
-// function liInUl (){
-//     for (let i = 0; i < 3; i++) {
-//        console.log(i);
-//        document.write(`<ul><li>Some text</li></ul>`)
-//     }
+//function sun(){
+//     document.write(`<ul><li>Some texts</li></ul>`)
+//     document.write(`<ul><li>Some texts</li></ul>`)
+//     document.write(`<ul><li>Some texts</li></ul>`)
 // }
-// liInUl()
+// sun();
 //__________________________________________________________________________________________________________
 //створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий.
 // Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
 
+// function liInUl (){
+//     for (let i = 0; i < 3; i++) {
+//        // console.log(i);
+//        document.write(`<ul><li>Some text 1</li></ul>`)
+//     }
+// }
+// liInUl()
+//_________________________________________________________________________
+//створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+//
+// function niceFunc(array){
+//  for (let arrayElement of array) {
+//   document.write(`<ol><li>${arrayElement}</li></ol>`)
+//  }
+// }
+//   niceFunc([20,true, 'hello',false,43])
+
+//______________________________________________________________________________________________________
+//створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
+// let users = [
+//  {id:334455,name:'olia',age:25},
+//  {id:223344, name:'vitia', age:30},
+//  {id:112233, name:'olena',age:31}
+// ]
+// function block(array){
+//  for (let arrayElement of array) {
+//   console.log(arrayElement);
+//   document.write(`<ol><li> User id is ${arrayElement.id}. User name is ${arrayElement.name}. User age is ${arrayElement.age}</li></ol>`)
+//  }
+// }
+// block(users)
+//_________________________________________________________________________________________________________________
+// створити функцію яка повертає найменьше число з масиву
+// function minNumber(){
+// }
+// minNumber(console.log(Math.min(100,200,20)))
+//_________________________________________________________________________________________________________
+//створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
+
+// function sum(array,action){
+//  let res = 0;
+//  for (let arrayElement of array) {
+//   if(action ==='+'){}
+//   res = res + arrayElement
+//  }
+//  return res;
+// }
+//  console.log(sum([1,2],'+'));
